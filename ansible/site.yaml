@@ -1,0 +1,6 @@
+---
+- name: Common Tool Setup on all the Servers
+  ansible.builtin.import_playbook: tomcat-setup.yaml
+
+- name: Setup Tomcat8 and Deploy Artifact
+  ansible.builtin.import_playbook: vpro-app-setup.yaml

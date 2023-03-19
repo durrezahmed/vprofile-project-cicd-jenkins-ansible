@@ -20,7 +20,7 @@ pipeline {
                                 defaultValue: '', 
                                 name: 'BUILD', 
                             ),
-							string(
+                            string(
                                 defaultValue: '', 
                                 name: 'TIME', 
                             )
